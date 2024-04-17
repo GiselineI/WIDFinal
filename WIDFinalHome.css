@@ -1,0 +1,227 @@
+
+
+
+
+
+html,body
+{
+    background-color:#ffffff;
+    height:auto;
+    width:auto;
+}
+header
+{
+    background-color: rgb(128, 128, 128);
+    color:aliceblue;
+    text-align: center;
+    display: flow-root;
+    filter: drop-shadow(2px 4px 6px white);
+    position:fixed;
+    width:98.9%;
+    z-index:1;
+    top:0;
+    font-family: sans-serif;
+
+
+}
+a:link, a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    scrollbar-width: thin;
+    inline-size: -webkit-fill-available;
+    }
+    
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: #4b4949; 
+    border-radius: 6px;
+}
+.introBackground
+{
+    background-image: url('interiorFinal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: auto;
+    overflow: hidden;
+    background-position: center;
+
+
+}
+.Introduction
+{
+    backdrop-filter: brightness(0.5);
+    width: -webkit-fill-available;
+}
+
+.realtImg
+{
+    backdrop-filter: brightness(0.5);
+    float: inline-start;
+    margin-left:10%;
+    
+}
+.welcome
+{
+    backdrop-filter: brightness(0.5);
+    float: inherit;
+    margin-top: 60%;
+    color:white;
+    
+    display:table-cell;
+    padding-top:161%;
+    
+}
+.missionStatement
+{
+    text-align:center;
+    margin-top:0%;
+    background-color: #F3FCF7;
+}
+.missionTitle
+{
+    margin-right:35%;
+}
+.missionStated
+{
+    margin-left:15%;
+}
+.reviewTitle
+{
+    margin-bottom:1%;
+    padding-top: 3%;
+}
+.board
+{
+    max-width:98;
+    width:100%;
+    background-color: #f2f0f0;
+    text-align:center;
+    border-radius:8px;
+    padding:4em 0;
+    color:black;
+    display:flow-root;
+    padding-top: inherit;
+    margin-top: 10%;
+}
+.reviewImages1
+{
+    margin-left: 5%;
+    background-color:#F3FCF7;
+    width: 23%;
+    float: left;
+    margin-right: 5%;
+    border-radius: 15%;
+    color: black;
+
+}
+
+.reviewImages2
+{
+    background-color: #F3FCF7;
+    width: 25%;
+    float: inline-start;
+    margin-left: 5%;
+    border-radius:15%;
+    color:black;
+}
+.reviewImages3
+{
+    background-color: #f3fcf7;
+    width: 23%;
+    float: inline-start;
+    margin-left: 10%;
+    border-radius:15%;
+    color:black;
+}
+.imageRev1,.imageRev2,.imageRev3
+{
+    height: auto;
+    width: 20%;
+    
+}
+.getToKnowMe
+{
+    padding: 4%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    float: inline-start;
+    width: 60%;
+    opacity: 0.8;
+}
+.mainImg img
+{
+    width: 33%;
+    background: white;
+    border-radius: 30%;
+    float: inline-start;
+    border-top: solid;
+    border-bottom: solid;
+    margin-left: 13%;
+    margin-top: 12%;
+
+}
+.agentTwo img
+{
+    width: 33%;
+    background: white;
+    border-radius: 30%;
+    float: inline-start;
+    border-top: solid;
+    border-bottom: solid;
+    margin-left: 19%;
+    margin-top: 17%;
+
+}
+.services
+{
+    float: inline-end;
+    margin-top: 13%;
+    background: F3FCF7;
+    border-radius: 10%;
+    padding: 1%;
+    white-space-collapse: preserve-breaks;
+    margin-right:5%;
+    background-color:#f2f0f0;
+}
+.aboutUs
+{
+    font-size: larger;
+}
+.agentNames
+{
+    float: inline-start;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    font-size:larger;
+}
+.footerContact
+{
+    color:white;
+    text-decoration: none;
+}
+footer
+{
+    background-color: #4b4949;
+    text-align:center;
+    margin-top:5%;
+    padding: 2%;
+    bottom:0;
+}
+

@@ -1,0 +1,111 @@
+
+html,body
+{
+    background-color:#f3fcf7;
+    height:auto;
+    width:auto;
+}
+header
+{
+    background-color: rgb(128, 128, 128);
+    color:aliceblue;
+    text-align: center;
+    display: flow-root;
+    filter: drop-shadow(2px 4px 6px white);
+    position:fixed;
+    width:98.9%;
+    z-index:1;
+    top:0;
+    font-family: sans-serif;
+    left: 0;
+    inline-size: -webkit-fill-available;
+
+}
+a:link, a:visited
+{
+    color:white;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    scrollbar-width: thin;
+    inline-size: -webkit-fill-available;
+    }
+    
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: #4b4949; 
+    border-radius: 6px;
+}
+main
+{
+    display:flex;
+    margin-top: 10%;
+    justify-content: space-around;
+}
+.allAvaiListings
+{
+    display:contents;
+
+}
+.bakerSt, .salmonAv, .cedarBlv
+{
+    background-color:white;
+    padding:1%;
+    border-radius:4%;
+    flex-basis:min-content;
+    margin-top:5%;
+    margin-right:5%;
+
+}
+
+.cedarBlv img, .salmonAv img,  .bakerSt img
+{
+    height: 230px;
+    width: 270px;
+}
+.bakerDet, .salmDet, .cedarDet
+{
+    color:black;
+}
+.listingTitle
+{
+    text-wrap: nowrap;
+    position: absolute;
+}   
+
+.uploaded
+{
+    color:rgb(40, 150, 202);
+    display: list-item;
+    margin-left: 12%;
+} 
+.footerContact
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: #4b4949;
+    text-align:center;
+    margin-top:5%;
+    padding: 2%;
+    bottom:0;
+    right:0;
+    
+}
+.discription
+{
+    font: small-caption;
+    color: darkslategrey;
+
+}
